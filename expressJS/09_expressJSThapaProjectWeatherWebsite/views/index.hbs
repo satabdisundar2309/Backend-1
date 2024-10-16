@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    {{!-- <header class="header">
+      <nav class="navbar">
+        <h1>Satabdi</h1>
+        <ul class="navigaion">
+          <a href="/">Home</a
+          ><a href="/about">About</a
+          ><a href="/weather">Weather</a>
+        </ul>
+      </nav>
+    </header> --}}
+    {{>header}}
+   <section class="container">
+        <button><a href="/weather">Weather</a></button>
+        <div class="containerBox"></div>
+   </section>
+
+   {{!-- <footer>Satabdisundar Behera</footer> --}}
+   {{>footer}}
+  </body>
+</html>

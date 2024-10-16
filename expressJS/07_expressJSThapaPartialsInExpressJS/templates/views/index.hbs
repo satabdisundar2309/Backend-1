@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+        <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    {{!--! adding partials in this file --}}
+    {{>header}}
+    {{!-- the above syntax is used to use partials/common components in the hbs files --}}
+
+    {{!-- <h1>Hello this is our <span style="color: blue;">hbs</span> home page mr. {{data.name}}</h1> --}}
+    {{!-- ! The above syntax of accessing the name wont work, but the below syntax will work --}}
+    <h1>Hello sir this is our <span style="color: blue;">hbs</span> home page mr. {{name}}</h1>
+    <a href="/about">About page</a>
+         {{>footer}}
+
+</body>
+</html>

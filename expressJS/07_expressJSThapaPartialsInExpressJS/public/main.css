@@ -1,0 +1,8 @@
+.footer{
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    height: 3rem;
+    position: fixed;
+    bottom: 0;
+}

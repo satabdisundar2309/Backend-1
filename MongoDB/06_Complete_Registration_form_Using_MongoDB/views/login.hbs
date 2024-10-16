@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form | Satabdisundar Behera</title>
+</head>
+<body>
+    {{>header}}
+    <form action="/login" method="POST">
+        <input type="email" name="email" placeholder="Email" required id="">
+        <input type="password" name="password" placeholder="password" required id="">
+        <button type="submit">Sign in</button>
+        <label for="">
+            <input type="checkbox" value="remember-me" name="" id="">
+            Remember me
+        </label>
+        <a href="#">Need help?</a>
+    </form>
+    <a href="/register">Create an account</a>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "06_complete_registration_form_using_mongodb",
+  "version": "1.0.0",
+  "description": "Complete registration and log in form using nodeJS and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satabdisundar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "validator": "^13.11.0"
+  }
+}

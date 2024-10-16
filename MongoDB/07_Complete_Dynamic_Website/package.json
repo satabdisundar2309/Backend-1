@@ -1,0 +1,19 @@
+{
+  "name": "07_complete_dynamic_website",
+  "version": "1.0.0",
+  "description": "Complete dynamic website using node, express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satabdisundar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.3.0",
+    "validator": "^13.11.0"
+  }
+}

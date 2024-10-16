@@ -1,0 +1,14 @@
+{
+  "name": "03_custom_validations_in_mongoose",
+  "version": "1.0.0",
+  "description": "Custom validators in mnongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satabdisundar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.2.3"
+  }
+}

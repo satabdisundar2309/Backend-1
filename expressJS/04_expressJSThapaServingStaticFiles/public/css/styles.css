@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(94, 94, 247);
+}
+.main_header{
+    background: #40ff00;
+    color: yellow;
+}
+.main_header2{
+    background: #ff0066;
+    color: yellow;
+}
+.main_header3{
+    background: #0000ff;
+    color: yellow;
+}
+.main_header4{
+    background: #124103;
+    color: yellow;
+}
+.main_header5{
+    background: #ff6600;
+    color: yellow;
+}
+.main_header5{
+    background: #000000;
+    color: yellow;
+}

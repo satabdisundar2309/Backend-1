@@ -1,0 +1,15 @@
+{
+  "name": "01_mongoose",
+  "version": "1.0.0",
+  "description": "Introduction to mongoose and connection with nodeJS and expressJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satabdisundar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3"
+  }
+}

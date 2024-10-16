@@ -1,0 +1,16 @@
+{
+  "name": "09_expressjsthapaprojectweatherwebsite",
+  "version": "1.0.0",
+  "description": "This ia a project on expressJS, overally this is an weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satabdisundar Behera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "hbs": "^4.2.0",
+    "requests": "^0.3.0"
+  }
+}

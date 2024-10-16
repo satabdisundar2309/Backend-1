@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Weather</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    {{>header}}
+
+    <div class="inputForm">
+        <form class="form">
+            <input type="text" placeholder="enter city name"" id="submitF">
+            <input type="submit" value="Submit" id="submitBtn">
+        </form>
+        <div class="templateInfo">
+            {{!-- <div class="date">
+                <p></p>
+                <p></p>
+            </div> --}}
+            <div class="main">
+                <p id="city_name"></p>
+                <div class="details">
+                    <p><span class="tempereture"></span><sup>o</sup>C</p>
+                    <p class="logo"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+
+    
+</body>
+</html>

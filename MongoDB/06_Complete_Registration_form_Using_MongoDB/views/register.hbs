@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form| satabdisundar Behera</title>
+</head>
+<body>
+    {{>header}}
+    <form action="/register" method="POST">
+        <input type="text" name="firstname" placeholder="First Name" value="">
+        <input type="text" name="lastname" placeholder="Last Name" value="">
+        <input type="email" name="email" placeholder="xyz@gmail.com" value="">
+        <input type="text" minlength="10" maxlength="10" name="phone" placeholder="your phone mumber" value="">
+        <div class="radios">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male" checked>
+        </div>
+        <div class="radios">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <input type="text" name="age" placeholder="your age*" value="">
+        <input type="password" name="password" placeholder="password *" value="">
+        <input type="password" name="confirmPassword" placeholder="confirm password *" value="">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

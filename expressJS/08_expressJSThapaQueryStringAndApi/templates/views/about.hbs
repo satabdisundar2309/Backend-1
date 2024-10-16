@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    {{!--! adding partials in this file --}}
+    {{>header}}
+    {{!-- the above syntax is used to use partials/common components in the hbs files --}}
+    <h1>Hello sir this is our <span style="color: rgb(255, 0, 119);">hbs</span> about page mr. {{data.name}} {{data.age}}</h1>
+    <a href="/">Home page</a>
+     {{>footer}}
+</body>
+</html>
